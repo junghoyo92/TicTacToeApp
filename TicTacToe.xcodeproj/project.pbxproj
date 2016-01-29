@@ -7,14 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73DA7B8F1C596DD2007598FE /* umich1.png in Resources */ = {isa = PBXBuildFile; fileRef = 73DA7B8D1C596DD2007598FE /* umich1.png */; };
+		73DA7B901C596DD2007598FE /* msu1.png in Resources */ = {isa = PBXBuildFile; fileRef = 73DA7B8E1C596DD2007598FE /* msu1.png */; };
 		73E404941C55EA6D009093AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E404931C55EA6D009093AD /* AppDelegate.swift */; };
 		73E404961C55EA6D009093AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73E404951C55EA6D009093AD /* ViewController.swift */; };
 		73E404991C55EA6D009093AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73E404971C55EA6D009093AD /* Main.storyboard */; };
 		73E4049B1C55EA6D009093AD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 73E4049A1C55EA6D009093AD /* Assets.xcassets */; };
 		73E4049E1C55EA6D009093AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 73E4049C1C55EA6D009093AD /* LaunchScreen.storyboard */; };
+		73E404A61C55EB28009093AD /* ttt_board.png in Resources */ = {isa = PBXBuildFile; fileRef = 73E404A51C55EB28009093AD /* ttt_board.png */; };
+		73E404A91C55EE15009093AD /* msu.png in Resources */ = {isa = PBXBuildFile; fileRef = 73E404A71C55EE15009093AD /* msu.png */; };
+		73E404AA1C55EE15009093AD /* umich.png in Resources */ = {isa = PBXBuildFile; fileRef = 73E404A81C55EE15009093AD /* umich.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		73DA7B8D1C596DD2007598FE /* umich1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = umich1.png; sourceTree = "<group>"; };
+		73DA7B8E1C596DD2007598FE /* msu1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = msu1.png; sourceTree = "<group>"; };
 		73E404901C55EA6D009093AD /* TicTacToe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TicTacToe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73E404931C55EA6D009093AD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73E404951C55EA6D009093AD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +29,9 @@
 		73E4049A1C55EA6D009093AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		73E4049D1C55EA6D009093AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		73E4049F1C55EA6D009093AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		73E404A51C55EB28009093AD /* ttt_board.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ttt_board.png; sourceTree = "<group>"; };
+		73E404A71C55EE15009093AD /* msu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = msu.png; sourceTree = "<group>"; };
+		73E404A81C55EE15009093AD /* umich.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = umich.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 				73E404951C55EA6D009093AD /* ViewController.swift */,
 				73E404971C55EA6D009093AD /* Main.storyboard */,
 				73E4049A1C55EA6D009093AD /* Assets.xcassets */,
+				73E404A51C55EB28009093AD /* ttt_board.png */,
+				73E404A71C55EE15009093AD /* msu.png */,
+				73E404A81C55EE15009093AD /* umich.png */,
+				73DA7B8D1C596DD2007598FE /* umich1.png */,
+				73DA7B8E1C596DD2007598FE /* msu1.png */,
 				73E4049C1C55EA6D009093AD /* LaunchScreen.storyboard */,
 				73E4049F1C55EA6D009093AD /* Info.plist */,
 			);
@@ -90,12 +105,16 @@
 		73E404881C55EA6D009093AD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					15,
+				);
 				LastSwiftUpdateCheck = 0720;
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = "Hoyoung Jung";
 				TargetAttributes = {
 					73E4048F1C55EA6D009093AD = {
 						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = 32DXF22EH3;
 					};
 				};
 			};
@@ -122,9 +141,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73E404AA1C55EE15009093AD /* umich.png in Resources */,
+				73DA7B901C596DD2007598FE /* msu1.png in Resources */,
 				73E4049E1C55EA6D009093AD /* LaunchScreen.storyboard in Resources */,
 				73E4049B1C55EA6D009093AD /* Assets.xcassets in Resources */,
 				73E404991C55EA6D009093AD /* Main.storyboard in Resources */,
+				73DA7B8F1C596DD2007598FE /* umich1.png in Resources */,
+				73E404A91C55EE15009093AD /* msu.png in Resources */,
+				73E404A61C55EB28009093AD /* ttt_board.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,10 +271,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TicTacToe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JungBusiness.TicTacToe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -258,10 +285,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TicTacToe/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JungBusiness.TicTacToe;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -284,6 +314,7 @@
 				73E404A41C55EA6D009093AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
